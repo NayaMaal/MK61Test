@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MapKit/MapKit.h"
 
-@interface M6ViewController : UIViewController
+@interface M6ViewController : UIViewController<UITextFieldDelegate>
 
+@property (nonatomic,retain) IBOutlet UITableView* dropDown;
+@property (nonatomic,retain) IBOutlet UITextField* searchBox;
+@property (nonatomic,retain) IBOutlet MKMapView* mapView;
+@property (nonatomic,retain) IBOutlet UIActivityIndicatorView* spinner;
+
+-(IBAction)doSearch:(id)sender;
+
+@property (nonatomic, retain) NSMutableArray* annotations;
 @end

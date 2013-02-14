@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A003C15F16CBDDD2003AD600 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A003C15E16CBDDD2003AD600 /* MapKit.framework */; };
+		A003C16216CC97DD003AD600 /* M6SimpleAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = A003C16116CC97DD003AD600 /* M6SimpleAnnotation.m */; };
 		A0CEA4EE16CBD4E70001229B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0CEA4ED16CBD4E70001229B /* UIKit.framework */; };
 		A0CEA4F016CBD4E70001229B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0CEA4EF16CBD4E70001229B /* Foundation.framework */; };
 		A0CEA4F216CBD4E70001229B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0CEA4F116CBD4E70001229B /* CoreGraphics.framework */; };
@@ -19,17 +21,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A003C15E16CBDDD2003AD600 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A003C16016CC97DD003AD600 /* M6SimpleAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M6SimpleAnnotation.h; sourceTree = "<group>"; };
+		A003C16116CC97DD003AD600 /* M6SimpleAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M6SimpleAnnotation.m; sourceTree = "<group>"; };
 		A0CEA4E916CBD4E70001229B /* MK61Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MK61Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0CEA4ED16CBD4E70001229B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A0CEA4EF16CBD4E70001229B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A0CEA4F116CBD4E70001229B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A0CEA4F516CBD4E70001229B /* MK61Test-Info.plist */ = {isa = PBXFileReference; path = "MK61Test-Info.plist"; sourceTree = "<group>"; };
+		A0CEA4F516CBD4E70001229B /* MK61Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MK61Test-Info.plist"; sourceTree = "<group>"; };
 		A0CEA4F716CBD4E70001229B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A0CEA4F916CBD4E70001229B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A0CEA4FB16CBD4E70001229B /* MK61Test-Prefix.pch */ = {isa = PBXFileReference; path = "MK61Test-Prefix.pch"; sourceTree = "<group>"; };
-		A0CEA4FC16CBD4E70001229B /* M6AppDelegate.h */ = {isa = PBXFileReference; path = M6AppDelegate.h; sourceTree = "<group>"; };
+		A0CEA4FB16CBD4E70001229B /* MK61Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MK61Test-Prefix.pch"; sourceTree = "<group>"; };
+		A0CEA4FC16CBD4E70001229B /* M6AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = M6AppDelegate.h; sourceTree = "<group>"; };
 		A0CEA4FD16CBD4E70001229B /* M6AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = M6AppDelegate.m; sourceTree = "<group>"; };
-		A0CEA4FF16CBD4E70001229B /* M6ViewController.h */ = {isa = PBXFileReference; path = M6ViewController.h; sourceTree = "<group>"; };
+		A0CEA4FF16CBD4E70001229B /* M6ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = M6ViewController.h; sourceTree = "<group>"; };
 		A0CEA50016CBD4E70001229B /* M6ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = M6ViewController.m; sourceTree = "<group>"; };
 		A0CEA50316CBD4E70001229B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/M6ViewController_iPhone.xib; sourceTree = "<group>"; };
 		A0CEA50616CBD4E70001229B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/M6ViewController_iPad.xib; sourceTree = "<group>"; };
@@ -40,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A003C15F16CBDDD2003AD600 /* MapKit.framework in Frameworks */,
 				A0CEA4EE16CBD4E70001229B /* UIKit.framework in Frameworks */,
 				A0CEA4F016CBD4E70001229B /* Foundation.framework in Frameworks */,
 				A0CEA4F216CBD4E70001229B /* CoreGraphics.framework in Frameworks */,
@@ -69,6 +75,7 @@
 		A0CEA4EC16CBD4E70001229B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A003C15E16CBDDD2003AD600 /* MapKit.framework */,
 				A0CEA4ED16CBD4E70001229B /* UIKit.framework */,
 				A0CEA4EF16CBD4E70001229B /* Foundation.framework */,
 				A0CEA4F116CBD4E70001229B /* CoreGraphics.framework */,
@@ -79,6 +86,8 @@
 		A0CEA4F316CBD4E70001229B /* MK61Test */ = {
 			isa = PBXGroup;
 			children = (
+				A003C16016CC97DD003AD600 /* M6SimpleAnnotation.h */,
+				A003C16116CC97DD003AD600 /* M6SimpleAnnotation.m */,
 				A0CEA4FC16CBD4E70001229B /* M6AppDelegate.h */,
 				A0CEA4FD16CBD4E70001229B /* M6AppDelegate.m */,
 				A0CEA4FF16CBD4E70001229B /* M6ViewController.h */,
@@ -168,6 +177,7 @@
 				A0CEA4FA16CBD4E70001229B /* main.m in Sources */,
 				A0CEA4FE16CBD4E70001229B /* M6AppDelegate.m in Sources */,
 				A0CEA50116CBD4E70001229B /* M6ViewController.m in Sources */,
+				A003C16216CC97DD003AD600 /* M6SimpleAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +264,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MK61Test/MK61Test-Prefix.pch";
 				INFOPLIST_FILE = "MK61Test/MK61Test-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -265,6 +276,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MK61Test/MK61Test-Prefix.pch";
 				INFOPLIST_FILE = "MK61Test/MK61Test-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -289,6 +301,7 @@
 				A0CEA50C16CBD4E70001229B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
